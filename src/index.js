@@ -53,13 +53,14 @@ function resetMarkUp() {
 
 function makeInformationMarkup(country) {
   const { name, capital, population, flags, languages } = country;
-  return (markUp = `
+  const markup = `
   <img src = ${flags.svg} width = 80 />
   <span class="info__name">${name.official}</span>
   <p>Capital: <span>${capital[0]}</span></p>
   <p>Population: <span>${population}</span></p>
   <p>Languages: <span>${Object.values(languages).join(',')}</span></p>
-  `);
+  `;
+  return markup;
 }
 
 function makeListMarkup(countries) {
