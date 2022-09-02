@@ -18,3 +18,32 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info__name {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.list__name {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.country-info p {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.country-info p span {
+  font-weight: 500;
+  font-size: 30px;
+}
