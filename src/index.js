@@ -63,7 +63,7 @@ function makeInformationMarkup(country) {
 }
 
 function makeListMarkup(countries) {
-  markUp = [];
+  const markUp = [];
   countries.forEach(({ name, flags }) => {
     markUp.push(`
     <li>
