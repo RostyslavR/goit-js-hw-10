@@ -79,4 +79,15 @@ function makeListMarkup(countries) {
 function notifyError(error) {
   Notify.failure('Error !!!');
   console.log(error);
+
+  // another error handler
+
+  // if ((error = '404')) {
+  //   Notify.failure(
+  //     `Just Not Found ) Error ${error}
+  //     Oops, there is no country with that name`
+  //   );
+  //   return;
+  // }
+  // Notify.failure(`Error ${error}`);
 }
